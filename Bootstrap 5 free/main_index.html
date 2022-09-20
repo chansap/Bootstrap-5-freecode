@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a href="#" class="navbar-brand">Second Bootstrap Page</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbat-link"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbat-link">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Progress</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Status</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Final</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Initiated</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container my-3">
+        <div class="row">
+          <div class="col-md-7">
+            <img
+              src="https://picsum.photos/600/400"
+              alt="logo"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-5">
+            <h1 class="h1 mt-5">Tagline</h1>
+            <p class="mt-4 lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              inventore beatae iure distinctio sed deleniti et officia
+              laudantium doloremque totam, quos pariatur eum aliquam dignissimos
+              quod, magnam fugit! Alias, dolor.
+            </p>
+
+            <a href="#" class="btn btn-outline-info mt-3">Call to action</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="bg-secondary text-light my-3 p-3 text-center card">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+                dolorum?
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="card-group">
+              <div class="card">
+                <div class="card-img-top">
+                  <img
+                    src="https://picsum.photos/400/200"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="card-body">
+                  <div class="card-title">Card Title</div>
+                  <div class="card-text">
+                    <p class="lead">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Libero, delectus!
+                    </p>
+                    <button class="btn btn-dark btn-sm mt-2">Submit</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img-top">
+                  <img
+                    src="https://picsum.photos/400/200"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="card-body">
+                  <div class="card-title">Card Title</div>
+                  <div class="card-text">
+                    <p class="lead text-start">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Libero, delectus!
+                    </p>
+                    <button class="btn btn-info btn-sm mt-2">Submit</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img-top">
+                  <img
+                    src="https://picsum.photos/400/200"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="card-body">
+                  <div class="card-title">Card Title</div>
+                  <div class="card-text">
+                    <p class="lead">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Libero, delectus!
+                    </p>
+                    <button class="btn btn-primary btn-sm mt-2">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-5 mt-5">
+            <p class="h3 text-center">Please fill the form</p>
+            <form action="">
+              <div class="form-floating mt-3">
+                <input
+                  type="email"
+                  name="email"
+                  id="email-id"
+                  class="form-control"
+                  placeholder="e-mail"
+                />
+                <label for="email-id" class="form-label">Email</label>
+              </div>
+              <div class="form-floating mt-3">
+                <input
+                  type="password"
+                  name="pass"
+                  id="password"
+                  class="form-control"
+                  placeholder="Password"
+                />
+                <label for="password" class="form-label">Password</label>
+              </div>
+              <div class="form-floating mt-3">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="form-control"
+                  placeholder="Full Name"
+                />
+                <label for="name" class="form-label">Full Name</label>
+              </div>
+              <div class="form-floating mt-3">
+                <select name="Gender" id="gender" class="form-select">
+                  <option value="male" disabled>Select gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="others">Others</option>
+                </select>
+                <label for="gender" class="form-label"></label>
+              </div>
+              <div class="mt-3 text-center">
+                <button class="btn btn-primary btn-sm">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark text-light p-3">
+      <div class="text-center">Copyright from Chandra</div>
+    </footer>
+  </body>
+  <script src="js/bootstrap.bundle.js"></script>
+</html>
